@@ -10,8 +10,8 @@
 {
   "title": "Video Conferencing",
   "imageSrc": "projects/project.png",
-  "description": "Developed a Zoom-like video conferencing application using the MERN stack and WebRTC. Implemented features like peer-to-peer video calling, real-time communication using sockets, and secure connection protocols. The app follows the four key stages of WebRTC: Signalling (SDP), Connecting, Securing, and Communication, offering hands-on learning with real-time media streams.",
-  "skills": ["React", "WebRTC", "Socket.io", "Node.js", "Express", "Material UI"],
+  "description": "Built a Zoom-like video conferencing app using MERN stack and WebRTC with peer-to-peer calling, real-time socket communication, and secure media streaming.",
+  "skills": ["React", "WebRTC", "Socket.io", "Node.js", "Express"],
   "demo": "",
   "source": "/"
 }
