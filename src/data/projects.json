@@ -5,14 +5,15 @@
     "description": "Built a full-stack Zerodha clone using the MERN stack with user authentication, dashboard, and trading-like UI for practice and learning purposes.",
     "skills": ["React", "Express", "Node"],
     "demo": "https://zerodha-project-red.vercel.app",
-    "source": "https://github.com/dixit-om/Zerodha_Project"
+    "source": "https://github.com/dixit-om/Zerodha_Project",
+    "dashboard":"https://zerodha-project-unlz.vercel.app"
   },
 {
   "title": "Video Conferencing",
   "imageSrc": "projects/project.png",
   "description": "Built a Zoom-like video conferencing app using MERN stack and WebRTC with peer-to-peer calling, real-time socket communication, and secure media streaming.",
   "skills": ["MERN", "WebRTC", "Socket.io"],
-  "demo": "",
+  "demo": "/",
   "source": "/"
 }
 ]

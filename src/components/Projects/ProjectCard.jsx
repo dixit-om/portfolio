@@ -1,10 +1,9 @@
 import React from "react";
-
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source },
+  project: { title, imageSrc, description, skills, demo, source, dashboard },
 }) => {
   return (
     <div className={styles.container}>
@@ -16,21 +15,28 @@ export const ProjectCard = ({
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
-        {skills.map((skill, id) => {
-          return (
-            <li key={id} className={styles.skill}>
-              {skill}
-            </li>
-          );
-        })}
+        {skills.map((skill, id) => (
+          <li key={id} className={styles.skill}>
+            {skill}
+          </li>
+        ))}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
-          Demo
-        </a>
-        <a href={source} className={styles.link}>
-          Source
-        </a>
+        {demo && (
+          <a href={demo} className={styles.link} target="_blank" rel="noopener noreferrer">
+            Demo
+          </a>
+        )}
+        {source && (
+          <a href={source} className={styles.link} target="_blank" rel="noopener noreferrer">
+            Source
+          </a>
+        )}
+        {dashboard && (
+          <a href={dashboard} className={styles.link} target="_blank" rel="noopener noreferrer">
+            Dashboard
+          </a>
+        )}
       </div>
     </div>
   );
