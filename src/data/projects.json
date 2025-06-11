@@ -1,26 +1,18 @@
 [
   {
-    "title": "Project A",
+    "title": "Zerodha Clone",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "Built a full-stack Zerodha clone using the MERN stack with user authentication, dashboard, and trading-like UI for practice and learning purposes.",
     "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://zerodha-project-red.vercel.app",
+    "source": "https://github.com/dixit-om/Zerodha_Project"
   },
-  {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  }
+{
+  "title": "Video Conferencing",
+  "imageSrc": "projects/project.png",
+  "description": "Developed a Zoom-like video conferencing application using the MERN stack and WebRTC. Implemented features like peer-to-peer video calling, real-time communication using sockets, and secure connection protocols. The app follows the four key stages of WebRTC: Signalling (SDP), Connecting, Securing, and Communication, offering hands-on learning with real-time media streams.",
+  "skills": ["React", "WebRTC", "Socket.io", "Node.js", "Express", "Material UI"],
+  "demo": "",
+  "source": "/"
+}
 ]
