@@ -11,7 +11,7 @@
   "title": "Video Conferencing",
   "imageSrc": "projects/project.png",
   "description": "Built a Zoom-like video conferencing app using MERN stack and WebRTC with peer-to-peer calling, real-time socket communication, and secure media streaming.",
-  "skills": ["React", "WebRTC", "Socket.io", "Node.js", "Express"],
+  "skills": ["MERN", "WebRTC", "Socket.io"],
   "demo": "",
   "source": "/"
 }
