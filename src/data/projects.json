@@ -9,11 +9,11 @@
     "dashboard":"https://zerodha-project-unlz.vercel.app"
   },
 {
-  "title": "Video Conferencing",
+  "title": "Beam Call",
   "imageSrc": "projects/project.png",
-  "description": "Built a Zoom-like video conferencing app using MERN stack and WebRTC with peer-to-peer calling, real-time socket communication, and secure media streaming.",
+  "description": "Built a video conferencing app using MERN stack and WebRTC with peer-to-peer calling, real-time socket communication, and secure media streaming.",
   "skills": ["MERN", "WebRTC", "Socket.io"],
-  "demo": "/",
-  "source": "/"
+  "demo": "https://video-call-b3af.onrender.com/",
+  "source": "https://github.com/dixit-om/portfolio"
 }
 ]
