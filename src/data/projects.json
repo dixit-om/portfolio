@@ -15,5 +15,13 @@
   "skills": ["MERN", "WebRTC", "Socket.io"],
   "demo": "https://video-call-b3af.onrender.com/",
   "source": "https://github.com/dixit-om/portfolio"
+},
+{
+  "title": "Rate my Store",
+  "imageSrc": "projects/project.png",
+  "description": "A full-stack web application that allows users to submit ratings for stores registered on the platform.Built with Express.js, React, and PostgreSQL.",
+  "skills": ["React", "Express", "postgreSQL"],
+  "demo": "https://store-app-application-client.onrender.com",
+  "source": "https://github.com/dixit-om/Store-App-Application"
 }
 ]
